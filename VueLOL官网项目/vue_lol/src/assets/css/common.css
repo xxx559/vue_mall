@@ -1,0 +1,258 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    font-size: 100px;
+}
+
+/* 禁止缩放表单 */
+input[type=“submit”],
+input[type=“reset”],
+input[type=“button”],
+input {
+    resize: none;
+    border: none;
+}
+
+/* 取消链接高亮 */
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    font: 12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+}
+
+/* 设置HTML5元素为块 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+img {
+    display: block;
+    -ms-interpolation-mode: bicubic;
+}
+
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px/1.5 ‘Microsoft YaHei’, ‘宋体’, Tahoma, Arial, sans-serif;
+    color: #555;
+    background-color: #F7F7F7;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+strong {
+    font-weight: normal;
+}
+
+.clearfix:after {
+    content: “”;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #969696;
+    font-family: ‘Microsoft YaHei’, Tahoma, Arial, sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-family: ‘Microsoft YaHei’;
+}
+
+img {
+    border: none;
+}
+
+input {
+    font-family: ‘Microsoft YaHei’;
+}
+
+.one-txt-cut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.txt-cut {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+/* a:link,
+a:active,
+a:visited,
+a:hover {
+    background: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+} */
+
+#footWrap .foot_ieg_logo, #footWrap .logo-riot, .act-link, .comm-avatar-border, .comm-icon-phone, .comm-icon-search, .head-app-hover, .head-userinfo-avatar>span, .icon-dsj, .icon-hot, .icon-new, .icon-xx-1, .logined-top .select-area:after, .logo-riot, .logo-tencentgame, .top-act-link, .topfoot-spr, .zm-hover-bg {
+    background-image: url(//game.gtimg.cn/images/lol/v3/topfoot-spr.png);
+    background-size: 405px 178px;
+    background-repeat: no-repeat;
+}
+.head-userinfo-brief>.login-unbindarea, .head-userinfo-brief>.unlogin {
+    color: #fefefe;
+    font-size: 16px;
+    line-height: 42px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+div {
+    display: block;
+}
+.topact-big-img, .topact-small-img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1920px;
+    height: 100%;
+    margin-left: -960px;
+
+}
+.topact-small-img {
+    -webkit-transition: opacity .6s;
+    transition: opacity .6s;
+    opacity: 1;
+}
+.comm-topact-inner {
+    width: auto;
+    max-width: 1358px;
+    min-width: 1230px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+img {
+    border: 0;
+}
+.head-userinfo-brief>.login-unbindarea>a, .head-userinfo-brief>.unlogin>a {
+    color: #fff3d0;
+}
+.comm-head a {
+    text-decoration: none;
+}
